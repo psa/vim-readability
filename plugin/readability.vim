@@ -14,6 +14,8 @@ endif
 
 if &hls
   let g:is_hlsearch = 1
+else
+  let g:is_hlsearch = 0
 endif
 
 let g:read_loaded = 1
